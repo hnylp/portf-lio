@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+p
+{
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff2e6;
+  padding: 20px 20px;
+}
+
+.icons
+{
+  position: fixed;
+  top: 0;
+  left: 500px;
+  width: 100%;
+  margin-top: 20px;
+  
+
+}
+
+
+
+.icons img
+{
+  cursor: auto;
+  cursor: pointer;  
+  justify-content: space-between;
+  margin: 15px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.about-me
+{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 250px;
+
+
+}
+
+.about-me p
+{
+    margin: 40px;
+
+
+}
+
+
+.logo-servidor
+{
+  position: relative;
+  z-index: 1;
+  top: 200px;
+  height: 350px;
+  left: -450px;
+}
+
+.p1
+{
+  position: relative;
+  top: -280px;
+  right: 160px;
+  z-index: 2;
+  font-size: 40px;
+
+}
+
+.copy-email
+{
+  position: relative;
+  height: 10px;
+  width: 500px;
+  top: -160px;
+  left: 600px;
+
+}
+
+
+.preencher-email
+{
+  display: flex;
+  align-items: center;
+
+}
+.icon-email {
+  height: 50px;
+
+}
+
+.button-email {
+  height: 35px;
+  font-size: 25px;
+  border: 0;
+  background-color: transparent;
+
+}
+
+.estudo_projeto
+{
+  position: relative;
+  top: 200px;
+  font-size: 100px;
+
+
+}
