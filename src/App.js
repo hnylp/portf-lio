@@ -41,7 +41,7 @@ function App() {
         <img src={icon_servidor} className="logo-servidor" alt="servidor"/>
         <p className="p1">
 
-        Sou programador backend C# :D
+       Programador Backend C#
         
         </p>
         
@@ -49,7 +49,7 @@ function App() {
 
         <p>Trabalhei em diversos projetos focados na criação de interfaces dinâmicas e responsivas. 
           Experiência na construção de aplicativos web e desktop com foco em usabilidade, performance e integração com APIs. 
-          Tenho trabalhado como freelancer nos últimos 8 meses focado em especialidade como: C#, Asp.net, HTML, CSS, JavaScript e SQL Server.
+          Tenho trabalhado como freelancer nos últimos 8 meses com especialidade em: C#, Asp.net, HTML, CSS, JavaScript e SQL Server.
           </p>
 
         <div className="preencher-email">

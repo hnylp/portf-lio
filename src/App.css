@@ -31,12 +31,11 @@ p
 
 .icons
 {
-  position: fixed;
-  top: 0;
-  left: 500px;
-  width: 100%;
-  margin-top: 20px;
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 150px;
 
 }
 
@@ -89,7 +88,7 @@ p
   top: -280px;
   right: 160px;
   z-index: 2;
-  font-size: 40px;
+  font-size: 60px;
 
 }
 
