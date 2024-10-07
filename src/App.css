@@ -13,13 +13,13 @@
   }
 }
 
-p
-{
-    font-family: "Mukta", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-
+p {
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
+
+
 .App-header {
   display: flex;
   flex-direction: row;
@@ -29,23 +29,16 @@ p
   padding: 20px 20px;
 }
 
-.icons
-{
+.icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
   margin-left: 150px;
-
 }
 
-
-
-.icons img
-{
-  cursor: auto;
-  cursor: pointer;  
-  justify-content: space-between;
+.icons img {
+  cursor: pointer;
   margin: 15px;
 }
 
@@ -54,27 +47,19 @@ p
   color: #61dafb;
 }
 
-.about-me
-{ 
+.about-me {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
   margin-left: 250px;
-
-
 }
 
-.about-me p
-{
-    margin: 40px;
-
-
+.about-me p {
+  margin: 40px;
 }
 
-
-.logo-servidor
-{
+.logo-servidor {
   position: relative;
   z-index: 1;
   top: 200px;
@@ -82,51 +67,126 @@ p
   left: -450px;
 }
 
-.p1
-{
+.p1 {
   position: relative;
   top: -280px;
   right: 160px;
   z-index: 2;
   font-size: 60px;
-
 }
 
-.copy-email
-{
+.copy-email {
   position: relative;
   height: 10px;
   width: 500px;
   top: -160px;
   left: 600px;
-
 }
 
-
-.preencher-email
-{
-  display: flex;
-  align-items: center;
-
+.preencher-email {
+  position: relative;
+  left: 10px;
 }
+
 .icon-email {
   height: 50px;
-
 }
 
 .button-email {
+  position: relative;
+  bottom: 15px;
+  left: 5px;
   height: 35px;
   font-size: 25px;
   border: 0;
   background-color: transparent;
-
 }
 
-.estudo_projeto
-{
+.estudo_projeto {
   position: relative;
   top: 200px;
   font-size: 100px;
+}
 
+/* responsividade p dispositivos */
+@media (max-width: 1024px) {
+  .App-header, .icons, .about-me {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .about-me {
+    margin-left: 0;
+  }
+
+  .logo-servidor {
+    left: 0;
+    top: 100px;
+    height: 250px;
+  }
+
+  .p1 {
+    top: -200px;
+    font-size: 40px;
+    right: 0;
+  }
+
+  .copy-email {
+    left: 0;
+    top: -100px;
+    width: 80%;
+  }
+
+  .estudo_projeto {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header, .icons, .about-me {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .icons {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .about-me {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .about-me p {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .logo-servidor {
+    left: 0;
+    top: 50px;
+    height: 200px;
+  }
+
+  .p1 {
+    top: -150px;
+    font-size: 30px;
+    right: 0;
+  }
+
+  .copy-email {
+    left: 0;
+    top: -80px;
+    width: 100%;
+  }
+
+  .estudo_projeto {
+    font-size: 60px;
+    top: 100px;
+  }
+
+  .button-email {
+    font-size: 20px;
+  }
 }

@@ -47,7 +47,7 @@ function App() {
         
           <div className="copy-email">
 
-        <p>Trabalhei em diversos projetos focados na criação de interfaces dinâmicas e responsivas. 
+        <p className="p2">Trabalhei em diversos projetos focados na criação de interfaces dinâmicas e responsivas. 
           Experiência na construção de aplicativos web e desktop com foco em usabilidade, performance e integração com APIs. 
           Tenho trabalhado como freelancer nos últimos 8 meses com especialidade em: C#, Asp.net, HTML, CSS, JavaScript e SQL Server.
           </p>
