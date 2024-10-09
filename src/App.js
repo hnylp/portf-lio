@@ -20,7 +20,7 @@ function App() {
 
         <p>
 
-              Aberto para trabalhar
+              Open to work
         
         </p>
         </div>
