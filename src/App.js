@@ -3,6 +3,7 @@ import icon_linkedin from './images/icon-linkedin.svg'
 import icon_whatsapp from './images/icon-whatsapp.svg'
 import icon_servidor from './images/icon-servidor.png'
 import icon_email from './images/icon-email.svg'
+import red_hny_projeto from './images/projeto_red_hny.png'
 import './App.css';
 
 function App() {
@@ -71,7 +72,8 @@ function App() {
 
             <div className="red_hny_projeto">
 
-            <img src=""></img>
+            <img src={red_hny_projeto} className="red_hny_projeto_imagem"></img>
+            <p className="Descricao_red_hny">Projeto feito com C# em conjunto com JavaScript</p>
 
             </div>
 
