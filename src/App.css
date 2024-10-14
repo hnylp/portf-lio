@@ -14,11 +14,17 @@
 }
 
 p {
-  font-family: "Mukta", sans-serif;
-  font-weight: 500;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
+  color: white;
 }
 
+a
+{
+  color: white;
+
+}
 
 .App-header 
 {
@@ -26,7 +32,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff2e6;
+  background-color: #348e91;
   padding: 20px 20px;
 }
 
@@ -43,7 +49,6 @@ p {
 .icons .logo-github
 {
   width: 35px;
-
 }
 
 .icons .logo-linkedin
@@ -97,6 +102,7 @@ p {
   justify-content: space-between;
   padding: 20px;
   margin-left: 250px;
+
 }
 
 .about-me p {
@@ -106,34 +112,53 @@ p {
 .logo-servidor {
   position: relative;
   z-index: 1;
-  top: 200px;
+  top: 280px;
   height: 350px;
   left: -450px;
 }
 
 .p1 {
   position: relative;
-  top: -280px;
-  right: 100px;
+  top: -350px;
   z-index: 2;
-  font-size: 70px;
+  font-size: 90px;
 }
 
 .copy-email {
   position: relative;
   height: 10px;
   width: 500px;
-  top: -160px;
+  top: -280px;
   left: 600px;
+}
+
+.p2 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+
 }
 
 .preencher-email {
   position: relative;
-  left: 10px;
+  top: 50px;
+  width: 500px;
+  height: 55px;
+  border: 0.6px solid white;
+
 }
 
 .icon-email {
+  position: relative;
+  right: 80px;
+  top: 3px;
   height: 50px;
+  width: 20px;
+
+
 }
 
 .button-email {
@@ -144,17 +169,17 @@ p {
   font-size: 25px;
   border: 0;
   background-color: transparent;
+  color: white;
 }
-
 
 .estudo_projeto {
   position: relative;
   top: 200px;
   font-size: 100px;
+  color: #348e91;
+  -webkit-text-stroke: 1px white; /* contorno do p */
 
 }
-
-
 
 .red_hny_projeto_imagem
 { 
