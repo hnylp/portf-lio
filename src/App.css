@@ -20,11 +20,6 @@ p {
   color: white;
 }
 
-a
-{
-  color: white;
-
-}
 
 .App-header 
 {
@@ -181,14 +176,29 @@ a
 
 }
 
+.red_hny_projeto
+{ 
+  display: flex;
+  flex-direction: column;
+
+}
+
 .red_hny_projeto_imagem
 { 
   background-color: #ffffff;
   position: relative;
   top: 400px;
-  width: 700px;
-  left: 350px;
-  align-items: column;
+  width: 600px;
+  left: 900px;
+}
+
+.Descricao_red_hny
+{
+  position: relative;
+  top: 390px;
+  left: 380px;
+
+
 }
 
 
